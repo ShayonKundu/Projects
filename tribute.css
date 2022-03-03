@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  #headline {
+    text-align: center;
+  }
+  img {
+    width:200px;
+    border: solid white;
+  }
+  #content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1800px;
+    display: flex;
+  }
+  #timeline {
+    float: left;
+    position: relative;
+    margin-left: 50px;
+    width: 75%;
+    font-size: 18px;
+  }
+  #side {
+    width: 25%;
+    float: right;
+    position: relative;
+    clear: both;
+  }
+  
+  table {
+    background-color: skyblue;
+    border: solid black;
+    
+  }
+  table th {
+    border: 2px solid black;
+    padding: 5px;
+  }
+  table td {
+    border: 2px solid black;
+    padding: 10px;
+  }
+  #foot {
+    margin-top: 40px;
+    text-align: center;
+    font-size: larger;
+  }
+  a {
+    color: dodgerblue;
+    text-decoration: none;
+  }
+  a:hover {
+    color: darkblue;
+    text-decoration:  underline;
+  }
+  a:visited {
+    color: purple;
+    text-decoration: underline;
+  }
